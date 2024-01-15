@@ -1,0 +1,47 @@
+/* All file css*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Header section css start*/
+
+header{
+    width: 100%;
+    padding: 50px;
+}
+
+.nav-content{
+    display: flex;
+}
+
+.nav-left{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.nav-left img{
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-left h2{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+/* Header section css end*/
