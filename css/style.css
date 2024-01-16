@@ -286,6 +286,168 @@ header{
 /* quality section css start*/
 /* quality section css end*/
 
+/* Newsletter section css start*/
+
+.newsletter{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.nl-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.nl-left{
+    width: 40%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 46px;
+}
+
+.nl-left h3{   
+    color: #131318;  
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.nl-left p{ 
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7rem;
+    margin: 12px 0px;
+}
+
+.line1{
+    display: inline-block;
+    height: 2px;
+    width: 393px;
+    background-color: rgba(19, 19, 24, 0.10);
+    margin: 06px 0px;
+}
+
+.nl-left form{
+
+}
+
+.nl-left form input{ 
+    display: block;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    height: 52px;
+    width: 85%;
+    margin: 20px 0px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #131318;
+    border: none;
+}
+
+.nl-left form input:focus{
+    outline-color: rgba(19, 19, 24, 0.05);
+}
+
+.nl-left form button{
+    width: 93%;
+    height: 66px;
+    transition: 0.3s;
+}
+
+
+.nl-left form button:hover{
+    background-color: #fff;
+    color: #FF5400;
+    border: 1px solid #FF5400;
+    transition: 0,3s;
+    cursor: pointer;
+}
+
+.nl-right{
+    position: relative;
+}
+
+.nl-right img{
+    max-width: 100%;
+    height: 500px;
+}
+
+.nl-right button{
+    position: absolute;
+    bottom: 61px;
+    right: 7px;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 800;
+    transform: rotate(336deg);
+    padding: 26px;
+    transition: 0.3s;
+}
+
+.nl-right button:hover{
+    background-color: #fff;
+    color: #FF5400;
+    border: 1px solid #FF5400;
+    transition: 0,3s;
+    cursor: pointer;
+}
+
+.nl-right button:hover span{
+    color: #FF5400;
+}
+
+.nl-right button span{ 
+    display: block;   
+    color: #FFF;  
+    text-align: center;  
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+/* Newsletter section css end*/
+
+/* Video section css start*/
+
+.video{
+
+}
+
+.v-content{
+
+}
+
+.v-left{
+
+}
+
+.v-left h2{
+    
+}
+
+.v-left p{
+    
+}
+
+.v-left ol{
+    
+}
+
+.v-left ol li{
+    
+}
+
+.v-left button{
+    
+}
+
+.v-right video{
+    
+}
+/* Video section css end*/
+
 /* Main section css end*/
 
 
@@ -335,7 +497,7 @@ footer{
     margin: 16px;
 }
 
-.line{
+.line2{
     display: inline-block;
     height: 2px;
     width: 872px;
