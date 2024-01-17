@@ -1,0 +1,45 @@
+/* Responsive css */
+
+@media screen and (max-width: 600px) {
+    .menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: #fff;
+        color: #FF5400;
+        transition: all ease .3s;
+    }
+
+    .menu li{
+        margin-top: 20px;
+    }
+
+    .menu li a{
+        padding: 10px;
+    }
+
+    .open-menu, .close-menu{
+        display: block;
+    }
+
+    #check:checked ~ .menu{
+        right: 0;
+    }
+
+    /* nav section media */
+    .nav-left h2, .nav-left h2 span{
+        font-size: 21.543px;
+        margin-left: 8px;
+    }
+
+    .nav-left img{
+        width: 28.724px;
+        height: 33.516px;
+    }
+}

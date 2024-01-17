@@ -24,13 +24,22 @@
                 </div>
                 <div class="nav-right">
                     <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Packages</a></li>
-                        <li><a href="">Testimonial</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
-                </div>
+                        <input type="checkbox" name="" id="check">
+                        <span class="menu">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Packages</a></li>
+                            <li><a href="">Testimonial</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact</a></li>
+                            <label for="check" class="close-menu">
+                                <i class="fa-solid fa-xmark"></i>
+                            </label>
+                        </span>
+                        <label for="check" class="open-menu">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                    </ul> 
+                </div> 
             </div>
         </nav>
 
@@ -42,12 +51,7 @@
                 </div>
                 <div class="banner-form">
                     <form>
-                        <select name="place" id="">
-                            <option value="">Where go</option>
-                            <option value="">Asia</option>
-                            <option value="">Europe</option>
-                            <option value="">America</option>
-                        </select>
+                        <input type="text" placeholder="Where">
                         <select name="time" id="">
                             <option value="">When</option>
                             <option value="">Today</option>
@@ -93,35 +97,82 @@
         <!-- Popular section code end -->
 
         <!-- Destination section code start -->
+
         <section class="destination container">
-            <div class="destination-content">
-                <div class="destination-title">
-                    <h3>Choose Your Destination</h3>
-                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst nec nibh pellentesque.</p>
+            <div class="d-title">
+                <h3>Choose Your Destination</h3>
+                <p>Embark on an unforgettable escape with our travel blog. Dive into exotic <br>  locales, savor diverse cuisines, and bask in breathtaking landscapes</p>
+            </div>
+            <div class="d-gallery">
+                <div class="place1">
+                    <div class="maldives">
+                        <img src="Images/Rectangle 5.png" alt="">
+                        <span class="middle">Maldives</span>
+                    </div>
+                    <div class="maldives">
+                        <img src="Images/Rectangle 8.png" alt="">
+                        <span class="middle">Indonesia</span>
+                    </div>    
+    
                 </div>
-                <div class="gallery">
-                    <div class="gallery-1">
-                        <span class="span1">Maldives</span>
-                        <span class="span2">Indonesia</span>
+                <div class="place2">
+                    <div class="maldives">
+                        <img src="Images/Rectangle 6.png" alt="">
+                        <span class="middle">Srilanka</span>
                     </div>
-                    <div class="gallery-2">
-                        <span class="span3">Srilanka</span>
-                        <span class="span4">North America</span>
-                        <span class="span5">Kashmir</span>
+                    <div class="maldives">
+                        <img src="Images/Rectangle 7.png" alt="">
+                        <span class="middle">North America</span>
+                    </div>  
+                    <div class="maldives">
+                        <img src="Images/Rectangle 9.png" alt="">
+                        <span class="middle">Kashmir</span>
+                    </div>  
+    
+                </div>
+                <div class="place3">
+                    <div class="maldives">
+                        <img src="Images/Rectangle 11.png" alt="">
+                        <span class="middle">Bangladesh</span>
                     </div>
-                    <div class="gallery-3">
-                        <span class="span6">Bangladesh</span>
-                        <span class="span7">Bandarban</span>
-                    </div>
+                    <div class="maldives">
+                        <img src="Images/Rectangle 10.png" alt="">
+                        <span class="middle">Bandarban</span>
+                    </div>    
                 </div>
             </div>
+
         </section>
         <!-- Destination section code end -->
 
         <!-- Quality section code start -->
-        <section class="quality">
+        <section class="quality container">
             <div class="quality-content">
-
+                <div class="q-title">
+                    <h3>Why Choose Us</h3>
+                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst nec nibh pellentesque.</p>
+                </div>
+                <div class="q-box">
+                    <div class="q-row1">
+                        <div class="q-box1 q-box-content">
+                            <img src="images/hotel.svg" alt="">
+                            <h4>Handpicked Hotels</h4>
+                            <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                        </div>
+                        <div class="q-box-content q-box2">
+                            <img src="images/map.svg" alt="">
+                            <h4>World Class Service</h4>
+                            <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                        </div>
+                    </div>
+                    <div class="q-row2">
+                        <div class="q-box3 q-box-content">
+                            <img src="images/offer.svg" alt="">
+                            <h4>Best Price Guarantee</h4>
+                            <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Quality section code end -->
@@ -130,7 +181,7 @@
         <section class="container video">
             <div class="v-content">
                 <div class="v-left">
-                    <h2>A Simple Perfect Place To Get Lost</h2>
+                    <h2>A Simple Perfect Place <br> To Get Lost</h2>
                     <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. </p>
                     <ol>
                         <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
@@ -139,7 +190,8 @@
                     <button class="btn-primary">See More</button>
                 </div>
                 <div class="v-right">
-                    <video controls width="610px" height="424px"  src="images/pexels-pat-whelen-5735999 (1080p).mp4"></video>
+                    <video src="images/nature.mp4" controls></video>
+                    <span>Watch Our Sea In Bangladesh</span>
                 </div>
             </div>
         </section>
