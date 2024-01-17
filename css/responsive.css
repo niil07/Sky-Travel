@@ -1,45 +1,217 @@
 /* Responsive css */
 
 @media screen and (max-width: 600px) {
-    .menu{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        right: -100%;
-        z-index: 100;
-        background-color: #fff;
-        color: #FF5400;
-        transition: all ease .3s;
+    
+    .container{
+        max-width: 335px;
+        margin: 0 auto;
     }
-
-    .menu li{
-        margin-top: 20px;
-    }
-
-    .menu li a{
-        padding: 10px;
-    }
-
-    .open-menu, .close-menu{
-        display: block;
-    }
-
-    #check:checked ~ .menu{
-        right: 0;
-    }
-
     /* nav section media */
-    .nav-left h2, .nav-left h2 span{
+    .nav-left h2{
         font-size: 21.543px;
-        margin-left: 8px;
+        margin-left: 12px;
+    }
+
+    .nav-left h2 span{
+        font-size: 21.543px;
     }
 
     .nav-left img{
         width: 28.724px;
         height: 33.516px;
+    }
+
+    .nav-right .menu{
+        display: none;
+    }
+
+    /* banner */
+    .banner .banner-desc h1{
+        font-size: 22px;
+    }
+
+    .banner .banner-desc p{
+        line-height: 21px;
+        font-size: 14px;
+    }
+
+    .banner-form form select{
+        margin-bottom: 10px;
+        margin-right: 0px !important;
+    }
+
+    .banner-form form input{
+        margin-bottom: 10px;
+        margin-right: 0px !important;
+    }
+
+    .banner-form button{
+        width: 86%;
+        padding: 14px;
+    }
+
+    /* popular */
+    .popular-left h3{
+        font-size: 20px;
+    }
+    .popular-left{
+        text-align: left;
+    }
+
+    .popular-left p, .popular-left ol li{
+        font-size: 14px;
+    }
+
+    .popular-content{ 
+        display: grid; 
+        grid-template-columns: repeat(1, 1fr);
+        gap: 28px;
+    }
+
+    /* destination */
+    .d-title h3{
+        font-size: 20px;
+    }
+
+    .d-title p{
+        font-size: 14px;
+    }
+
+    .place1,.place2,.place3{
+        flex-direction: column;
+        column-gap: 12px;
+        margin-bottom: 0px;
+    }
+
+    .maldives{
+        margin-bottom: 12px;
+    }
+
+    .maldives img{
+        width: 100%;
+        height: 176px;
+    }
+
+    .middle{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .d-gallery{
+        margin-top: 0px !important;
+    }
+
+    /* quality */
+    .q-title h3{
+        font-size: 20px;
+    }
+
+    .q-title p{
+        font-size: 14px;
+    }
+
+    .q-row1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
+
+    .q-box-content h4{
+        font-size: 20px;
+    }
+
+    .q-box-content p{
+        font-size: 14px;
+    }
+
+    .q-box-content img{
+        height: 48px;
+        width: 48px;
+    }
+
+    .q-box3{
+        width: 86%;
+    }
+
+    /* video */
+
+    .v-content{
+        flex-direction: column;
+    }
+    .v-left h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .v-left p, .v-left ol li{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .v-left{
+        width: 100%;
+    }
+
+    .v-right{
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    /* newsletter */
+    .nl-content{
+        flex-direction: column;
+    }
+
+    .nl-left, .nl-right{
+        width: 100%;
+        margin: auto;
+    }
+
+    .nl-left h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .nl-left p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .nl-left form input{
+        width: 288px;
+        height: 52px;
+    }
+
+    .line1{
+        width: 288px;
+    }
+
+    .nl-right img{
+        width: 335px;
+        height: 300px;
+    }
+
+    .nl-right button{
+        width: 214.023px;
+        height: 79.268px;
+        font-weight: 400;
+        font-size: 21.138px;
+        bottom: 43px;
+        right: 3px;
+    }
+
+    .nl-right span{
+        font-size: 15.854px !important;
+        font-weight: 800;
+    }
+
+    /* footer */
+
+    footer{
+        width: 100%;
+    }
+    .footer-logo h3{
+        font-size: 21.543px;
+    }
+
+    .footer-logo p{
+        font-size: 14px;
     }
 }
