@@ -24,6 +24,8 @@ body{
     text-align: center;
     font-size: 18px;
     font-weight: 600;
+    width: 174px;
+    height: 52px;
 }
 
 img{
@@ -112,6 +114,11 @@ header{
 .nav-right ul li a:hover::after{
     width: 100%;
     transition: 0.3s;
+}
+
+.nav-button{
+    color: #131318;
+    display: none;
 }
 
 /* Banner section*/
@@ -225,8 +232,6 @@ header{
 
 /* Main section css start*/
 
-
-
 /* popular-tour section css start*/
 
 .popular-tour{
@@ -238,10 +243,6 @@ header{
     display: grid; 
     grid-template-columns: repeat(2, 1fr);
     gap: 28px;
-}
-
-.popular-left{
-
 }
 
 .popular-left h3{
@@ -286,6 +287,7 @@ header{
 
 .popular-right{
     text-align: right;
+    margin: auto;
 }
 
 /* popular-tour section css end*/
@@ -426,7 +428,7 @@ header{
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     margin: auto;
-    width: 50%;
+    width: 45%;
 }
 
 
@@ -523,25 +525,26 @@ video{
 }
 
 .nl-content{
-    display: flex;
-    justify-content: space-between;
-    gap: 60px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 42px;
 }
 
-.nl-left{
-    width: 40%;
+ .nl-left{
+    margin: auto;
+    border: 1px solid #ff5400;
     border-radius: 16px;
-    border: 1px solid #FF5400;
-    padding: 46px;
-}
+    padding: 24px 0px 24px 24px;
+ }
 
-.nl-left h3{   
-    color: #131318;  
+.nl-left h3{
+    color: #131318;
     font-size: 24px;
     font-weight: 800;
+    display: inline-block;
 }
 
-.nl-left p{ 
+.nl-left p{
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
@@ -558,36 +561,37 @@ video{
 }
 
 
-.nl-left form input{ 
-    display: block;
+.nl-left input{
+    display: inline-block;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
-    height: 52px;
-    width: 85%;
-    margin: 20px 0px;
-    padding: 8px 16px;
+    height: 61px;
+    width: 378px;
+    margin-top: 20px;
     font-size: 16px;
     font-weight: 400;
     color: #131318;
     border: none;
+    padding-left: 16px;
 }
 
-.nl-left form input:focus{
+.nl-left input:focus{
     outline-color: rgba(19, 19, 24, 0.05);
 }
 
-.nl-left form button{
-    width: 93%;
-    height: 66px;
+.nl-left button{
+    width: 393px;
+    height: 61px;
     transition: 0.3s;
+    padding: 0;
+    margin-top: 20px;
 }
 
-
-.nl-left form button:hover{
+.nl-left button:hover{
     background-color: #fff;
     color: #FF5400;
     border: 1px solid #FF5400;
-    transition: 0,3s;
+    transition: 0.3s;
     cursor: pointer;
 }
 
@@ -597,19 +601,23 @@ video{
 
 .nl-right img{
     max-width: 100%;
-    height: 500px;
+    height: auto;
 }
 
 .nl-right button{
     position: absolute;
     bottom: 63px;
-    right: 9px;
+    right: 13px;
     font-size: 32px;
     color: #fff;
     font-weight: 800;
     transform: rotate(335deg);
     padding: 26px;
     transition: 0.3s;
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border: none;
+    text-align: center;
 }
 
 .nl-right button:hover{
@@ -642,7 +650,7 @@ video{
 
 footer{
     width: 100%;
-    padding: 120px 0px;
+    padding: 100px 0px;
     background-color: rgba(19, 19, 24, 0.05);
     text-align: center;
 }
