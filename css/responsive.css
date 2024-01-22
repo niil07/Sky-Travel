@@ -156,6 +156,69 @@
         width: 85%;
     }
 
+    /* deals */
+    .deals{
+        padding: 30px 0px;
+    }
+
+    .deals-title h2{
+        font-size: 20px;
+    }
+
+    .deals-title p{
+        font-size: 14px;
+        margin: 12px 0px;
+    }
+
+    .d-boxes p{
+        display: none;
+    }
+
+    .alt{
+        display: block !important;
+    }
+
+    .d-content1, .d-content2{
+        padding: 36px;
+    }
+    
+    .box{
+        width: 100%;
+        padding: 22px;
+    }
+
+    .box button{
+        width: 130px;
+        height: 40px;
+        padding: 0;
+        font-weight: 400;
+    }
+
+    .box .block{
+        display: block;
+    }
+
+    /* review */
+    .r-title h3{
+        font-size: 20px;
+    }
+
+    .r-title p{
+        font-size: 14px;
+    }
+
+    .r-boxes{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .r-box p{
+        font-size: 18px;
+    }
+
+    .r-box h6{
+        font-size: 14px;
+    }
+
     /* video */
 
     .video{
